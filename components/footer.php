@@ -7,5 +7,5 @@
         <div><a class="footer-link" href="../index.php">Index</a></div>
         <div><a class="footer-link" href="../contact.php">Contact</a></div>
 
-    <h2>&copy; 2024 GDES</h2>
+    <h2>&copy; 2024 transcendent designs</h2>
 </footer>

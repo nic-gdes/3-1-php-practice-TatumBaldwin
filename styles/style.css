@@ -1,18 +1,15 @@
 
-/* INDEX / CONTACT PAGE */
-h1 {
-    background-color: blue;
-    color: white;
-    font-size: 5rem;
-}
-
-
-
 /* GENERAL STYLING */
 a {
     text-decoration: none;
 
 }
+
+body {
+    background-color: black;
+}
+
+
 
 
 
@@ -67,15 +64,77 @@ a {
 
 
 
+
+
+/* GRID-ITEMS */
+
+/* grid-container + flex */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: beige;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+/* images */
+.grid-images {
+    width: 100%;
+}
+
+
+
+/* GRID ITEMS SUPPORTING THE MAIN CONTENT: MOTHS */
+
+.moth-contain {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80vw;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.moths {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: beige;
+    border-radius: 10px;
+
+    width: 11rem;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-top: 2rem;
+}
+
+.moth-images {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+
+
+
+
 /* FOOTER */
 
 /* background color */
 footer {
     background-color: beige;
     position: absolute;
-    bottom: 0;
+    bottom: -58rem;
     left: 0;
     right: 0;
+    padding-top: 1rem;
 }
 
 /* center the footer */
