@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-</head>
-<body>
-    <head>
     <?php
         $page_title = "Home";
-        include('./head.php');
+        include('./components/head.php');
     ?>
-    </head>
+</head>
+<body>
 
-    <?php include('./nav.php'); ?>
+    <?php include('./components/nav.php'); ?>
     <h1>Home Page</h1>
 
-    <?php include('./footer.php'); ?>
+    <?php include('./components/footer.php'); ?>
 </body>
 </html>
 

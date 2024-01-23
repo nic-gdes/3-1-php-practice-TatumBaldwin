@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+    <?php
+        $page_title = "Home";
+        include('./components/head.php');
+    ?>
 </head>
 <body>
-    <head>
-    <?php
-        $page_title = "Contact";
-        include('./head.php');
-    ?>
-    </head>
 
-    <?php include('./nav.php'); ?>
+    <?php include('./components/nav.php'); ?>
     <h1>Contact Page</h1>
 
-    <?php include('./footer.php'); ?>
+    <?php include('./components/footer.php'); ?>
 </body>
 </html>
 
