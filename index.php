@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+
+<!-- THE HEAD -->
     <?php
         $page_title = "Home";
         include('./components/head.php');
     ?>
-</head>
-<body>
+
+    <!-- THE NAV -->
     <?php include('./components/nav.php'); ?>
 
+    <!-- GRID ITEM -->
     <?php include('./components/grid-item.php'); ?>
+
+    <!-- SUPPORTING GRID ITEMS -->
     <section class="moth-contain">
         <div class="moths moth1">
             <img class="moth-images" src="../images/Atlas-moth.webp" alt="blue">
@@ -45,11 +46,8 @@
         </div>
     </section>
 
+    <!--  THE FOOTER -->
     <?php include('./components/footer.php'); ?>
-</body>
+
+
 </html>
-
-<?php
-?>
-
-<!-- include('./components/nav.php'); -->

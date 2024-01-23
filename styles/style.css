@@ -73,6 +73,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+
     background-color: beige;
     width: 80vw;
     border-radius: 10px;
@@ -103,6 +105,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 
     background-color: beige;
     border-radius: 10px;
@@ -115,8 +118,8 @@ body {
 }
 
 .moth-images {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     margin: 0 auto;
 }
@@ -130,11 +133,8 @@ body {
 /* background color */
 footer {
     background-color: beige;
-    position: absolute;
-    bottom: -58rem;
-    left: 0;
-    right: 0;
     padding-top: 1rem;
+    margin-top: 5rem;
 }
 
 /* center the footer */
@@ -149,6 +149,8 @@ footer {
 .footer-link {
     text-decoration: none;
     color: black;
+    font-size: 1.5srem;
+    font-family:Helvetica, Arial, sans-serif;
 }
 
 /* link affects */
@@ -159,3 +161,53 @@ footer {
 .footer-link:active {
     color: rgb(117, 115, 115);
 }
+
+
+
+
+
+/* BIGGER SCREEN */
+
+@media screen and (min-width: 890px) {
+
+
+    .moth-contain {
+        gap: 1rem;
+        width: 50vw;
+    }
+
+    .moths {
+        width: 14rem;
+    }
+
+    .moth-images {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container {
+        width: 50vw;
+    }
+
+    .grid-images {
+        height: 20rem;
+        object-fit: cover;
+    }
+
+  }
+
+
+  @media screen and (min-width: 1949px) {
+
+    .moths {
+        width: 25rem;
+    }
+
+    .moth-images {
+        width: 350px;
+    }
+
+    .container {
+        width: 40vw;
+    }
+  }
