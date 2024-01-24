@@ -9,5 +9,3 @@
 
         <h2>&copy; 2024 transcendent designs</h2>
     </footer>
-
-</body>

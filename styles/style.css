@@ -11,8 +11,6 @@ body {
 
 
 
-
-
 /* NAVIGATION */
 
 /* background color */
@@ -127,7 +125,6 @@ body {
 
 
 
-
 /* FOOTER */
 
 /* background color */
@@ -149,7 +146,6 @@ footer {
 .footer-link {
     text-decoration: none;
     color: black;
-    font-size: 1.5srem;
     font-family:Helvetica, Arial, sans-serif;
 }
 
