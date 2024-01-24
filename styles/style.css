@@ -158,7 +158,9 @@ footer {
     color: rgb(117, 115, 115);
 }
 
-
+.small {
+    padding: 1rem;
+}
 
 
 
